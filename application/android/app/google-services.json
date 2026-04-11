@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "219134283738",
+    "project_id": "asessment-work-scheduler",
+    "storage_bucket": "asessment-work-scheduler.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219134283738:android:af0ba8878b340bcaf17ae3",
+        "android_client_info": {
+          "package_name": "com.example.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4C0_oX0tOf9a2nNyNh29DIz_-NkCGysg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
