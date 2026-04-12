@@ -83,4 +83,5 @@ class DefaultFirebaseOptions {
     authDomain: 'asessment-work-scheduler.firebaseapp.com',
     storageBucket: 'asessment-work-scheduler.firebasestorage.app',
   );
+
 }
