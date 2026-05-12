@@ -16,11 +16,9 @@ void main() async {
   runApp(const MainApp());
 }
 
-// colours
+// app variables
 var primaryColor = const Color.fromARGB(255, 156, 132, 201);
 var darkPrimaryColor = const Color.fromARGB(255, 120, 100, 170);
-
-// functioning
 bool darkMode = false;
 
 class AssessmentSubtask {
@@ -1885,14 +1883,6 @@ class _MainAppState extends State<MainApp> {
                     'Assessment Scheduler',
                     style: GoogleFonts.lato(color: Colors.white, fontSize: 22),
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    'Schedule assessments and assign priority ranks to generate a study plan based on proximity, importance and available time.',
-                    style: TextStyle(
-                      color: Colors.white.withValues(alpha: 0.85),
-                      fontSize: 14,
-                    ),
-                  ),
                   const SizedBox(height: 16),
                   Wrap(
                     spacing: 12,
@@ -2069,7 +2059,8 @@ class _MainAppState extends State<MainApp> {
   Widget _buildTaskCard(ScheduledAssessment task) {
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
-      elevation: 0,
+      elevation: 20,
+      shadowColor: Colors.black,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(18),
         side: BorderSide(
@@ -2389,14 +2380,6 @@ class _MainAppState extends State<MainApp> {
                 Text(
                   'Study Calendar',
                   style: GoogleFonts.lato(color: Colors.white, fontSize: 22),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'Your study plan is shown here. Configure availability settings to generate a suitable schedule for yourself',
-                  style: TextStyle(
-                    color: Colors.white.withValues(alpha: 0.85),
-                    fontSize: 14,
-                  ),
                 ),
                 const SizedBox(height: 16),
                 Wrap(
@@ -3291,7 +3274,8 @@ class _MainAppState extends State<MainApp> {
               ),
               const SizedBox(height: 12),
               Card(
-                elevation: 0,
+                elevation: 20,
+                shadowColor: Colors.black,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18),
                   side: BorderSide(
